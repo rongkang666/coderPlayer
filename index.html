@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coder Player</title>
+    
+    <link href="css/code.css" type="text/css" rel="stylesheet">
+   
+    
+    
+</head>
+    <body>
+        
+        <div id="header">
+            <div id="logo">Code Player</div>
+            <div id="btnContainer">
+            <div id="html" class="Panel active">HTML</div>
+            <div id="css" class="Panel">CSS</div>
+            <div id="javascript" class="Panel">JavaScript</div>
+            <div id="outcome" class="Panel active">Outcome</div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <textarea id="htmltext" class="block"><p id="para">hello</p></textarea>
+            <textarea id="csstext" class="block hidden">p{color:green;}</textarea>
+            <textarea id="javascripttext" class="block hidden">document.getElementById("para").innerHTML="hello kang"</textarea>
+            <iframe id="outcometext" class="block"></iframe>
+            
+            <script type="text/javascript" src="js/jquery.min.js"></script>
+            <script type="text/javascript" src="js/script.js"></script>
+           
+        </div>
+
+    </body>
+
+
+</html>
